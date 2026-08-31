@@ -72,6 +72,7 @@ h1 {
 /* Om een element met class te selecteren gebruik je een . in de selector */
 p.slogan {
   font-size:1.25em;
+  text-align:center;
   color:#212529;
 }
 
