@@ -207,74 +207,26 @@ p.slogan {
 /* In deze DL staan 3 groepen met code skills, in CSS is de layout van de DT elementen met een Grid gepositioneerd.  */
 
 dl {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "html-dd css-dd js-dd"
-    "html-dt css-dt js-dt"
-    ;
-  justify-items: center;
-  align-items: start;
-  
-  width: 100%;
+  flex-direction:row;
+  justify-items: start;
   margin-top: -3rem;
-  margin-bottom: 0;
   padding: 5rem 0 3rem;
+  margin-left: 10px;
+  padding-bottom: 0px;
   
-  text-align: center;
-  background: rgb(255 255 255);
-
   dt {
-    margin-top: .25rem;
-    padding-top: .25rem;
-    
-    border-top: 1px solid rgb(0 0 0 / 0.3);
+    border-bottom: 1px solid rgb(251, 226, 226);
     font-weight: bold;
-    
-    &:nth-of-type(1) {
-      grid-area: html-dt;
-    }
-    
-    &:nth-of-type(2) {
-      grid-area: css-dt;
-      translate:0 1rem;
-    }
-    
-    &:nth-of-type(3) {
-      grid-area: js-dt;
-    }
     color: white;
   }
 
   dd {
-    margin: 0;
-    padding-left: .3rem;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
     
-    transition: .25s .3s;
-    
-    &:nth-of-type(2) {
-      translate:0 1rem;
-    }
+    /* transition: .25s .3s; */
   }
-}
-
-/* P */
-/* Hier krijgen alle <p> elementen een styling. */
-p {
-  margin: 0;
-}
-
-/* Om alleen de <p> elementen te stylen die in het <article> staat gebruik je de > de 'Child combinator selector'.
-/* Met de 'Child combinator selector' selecteer je alle <p> elementen die een directe  kinderen van het <article> zijn. */
-/* Dit selecteert dus niet de <p> in de <header>. */
-article > p {
-  width: 100%;
-  margin-top: 0;
-  padding: 3rem 2rem;
-  
-  background: rgb(255 255 255 / 0.5);
-  border-radius: 0 0 1rem 1rem;
-  text-align: center;
 }
 
 /* Deze styles zijn van toepassing als op de knop wordt geklikt */
