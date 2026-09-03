@@ -24,7 +24,7 @@ body {
   height: 100vh;
   
   font-family: open sans;
-  color: #5b0774; /* de tekst kleur wordt in hex kleuren bepaald. */
+  color: #110047; /* de tekst kleur wordt in hex kleuren bepaald. */
 }
 
 /* ARTICLE */
@@ -91,7 +91,7 @@ button {
   
   border: none;
   border-radius: 50%; /* De border-radius geeft de <button> ronde hoekjes. */
-  background: rgb(82, 230, 249);
+  background: rgb(146, 121, 219);
   
   scale:.8;
   
@@ -102,12 +102,12 @@ button {
 /* :hover is een 'Pseudo-class selector', daarmee worden interacties op het element gestyled. */
 button:hover {
   cursor: pointer;
-  background: #7d69c2;
+  background: #634cb7;
 }
 /* Met de 'Pseudo-class selector' :focus kan je bepalen hoe het element er uit moet zien als de tab toets op het toetsenbord wordt gebruikt. */
 button:focus {
   outline: none;
-  background: #6652ae;
+  background: #6444d9;
 }
 
 /* In het <button> element staat een <svg> voor het icoon. */
@@ -117,7 +117,7 @@ button svg {
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
   
-  stroke: #6652ae;
+  stroke: #eeeefa;
   
   transition: .25s;
   transition-delay: .25s; /* Een transitie op het <svg> element begin 0.25 seconde later. */
@@ -192,6 +192,7 @@ dl {
     &:nth-of-type(3) {
       grid-area: js-dt;
     }
+    color: white;
   }
 
   dd {
