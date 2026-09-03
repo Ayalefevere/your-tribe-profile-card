@@ -126,6 +126,27 @@ button svg:nth-of-type(2) {
   transition-delay: 0ms;
 }
 
+.container {
+display: flex;
+flex-direction: row;
+}
+
+.sidebar {
+width: 150px;
+height: 500px;
+background: #002e6a;
+padding:10px 0px 0px 15px;
+border-radius: 0px 0px 0px 15px;
+}
+
+.rightbar {
+width: 280px;
+height: 500px;
+background: white;
+padding: 0px 20px 0px 20px;
+border-radius: 0px 0px 15px 0px;
+}
+
 /* IMG */
 /* Hier krijgt het <img> element de styling. */
 img {
