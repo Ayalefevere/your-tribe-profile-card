@@ -43,9 +43,8 @@ article {
   height: 550px;
 
   
-  border-radius: 1rem;
-  background: #f02a23;
-  background: linear-gradient(0deg, #fc524d 60%, #ffdfde 100%);
+  border-radius: 15px;
+  background-color: white;
   box-shadow: 0 0 20px 20px #21252911;
   
   transition: .25s;
@@ -57,7 +56,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  min-height:70px;
+  background: linear-gradient(50deg, #afc4f0 50%, #484ec8 100%);
+  border-radius: 15px 15px 0px 0px;
 }
 
 /* H1 */
