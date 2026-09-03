@@ -7,7 +7,9 @@
 /* Dit verwijst naar het <html> element. De <html> krijgt een lichtgele achtergrond. */
 
 html {
-  background:#ACDBE4;
+  /* background:#f1afd4; */
+  background-image: url(https://img.magnific.com/premium-vector/blue-morning-mountain-landscape-background_414991-327.jpg?semt=ais_hybrid&w=740&q=80);
+  background-size:cover;
 }
 
 /* BODY */
