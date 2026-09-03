@@ -33,16 +33,15 @@ body {
 /* Er wordt een breedte meegegeven, een minimale en maximale breedte. */
 /* Het <article> element krijgt een kleur, en nog meer ... */
 article {
-  position: relative;
+  position:relative;
   
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  
-  width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+
+  width: 430px;
+  max-width: 500px;
+  height: 550px;
+
   
   border-radius: 1rem;
   background: #f02a23;
