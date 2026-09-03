@@ -64,18 +64,10 @@ header {
 /* H1 */
 /* Hier krijgt het <h1> element de styling. */
 h1 {
-  margin: 2rem 0 1rem 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
-  
-  color: #130a6e; /* De tekst kleur wordt in rgb() bepaald. */
-}
-
-/* P */
-/* Hier krijgt de <p> met de class slogan de styling. */
-/* Om een element met class te selecteren gebruik je een . in de selector */
-p.slogan {
-  font-size:1.25em;
-  text-align:center;
-  color:#212529;
+  margin: 10px 0 0px 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
+  font-family: "Gveret Levin", cursive;
+  font-size: 35px;
+  color: #0b0024; /* De tekst kleur wordt in rgb() bepaald. */
 }
 
 /* BUTTON */
@@ -93,7 +85,7 @@ button {
   border-radius: 50%; /* De border-radius geeft de <button> ronde hoekjes. */
   background: rgb(146, 121, 219);
   
-  scale:.8;
+  scale:.7;
   
   transition: .25s; /* Transities op het <button> element duren 0.25 seconden. */
 }
@@ -138,9 +130,9 @@ button svg:nth-of-type(2) {
 /* Hier krijgt het <img> element de styling. */
 img {
   position: relative;
-  top: 2rem;
+  top: 0px;
   
-  width: 10em;
+  width: 7.5em;
   height: auto;
   
   border: 5px solid #fff;
