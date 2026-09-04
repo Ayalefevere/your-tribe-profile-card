@@ -156,6 +156,16 @@ text-decoration: none;
 color: darkblue;
 }
     /* IMG Pasfoto styling*/
+        .pasfoto {
+          position: relative;
+          top: 0px;
+          
+          width: 7.5em;
+          height: auto;
+          border: 5px solid #fff;
+          border-radius: 10em;
+          box-shadow: 0 0 2px 2px rgb(0 0 0 /.2);
+      }
 
 /* Om alleen de <p> elementen te stylen die in het <article> staat gebruik je de > de 'Child combinator selector'.
 /* Met de 'Child combinator selector' selecteer je alle <p> elementen die een directe  kinderen van het <article> zijn. */
