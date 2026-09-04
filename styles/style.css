@@ -1,22 +1,12 @@
 * {
-  box-sizing: border-box; /* uitleg over wat dit is */
+  box-sizing: border-box; 
 }
 
-/* HTML */
-/* Hier wordt met een 'type selector' een element in de html geselecteerd. */
-/* Dit verwijst naar het <html> element. De <html> krijgt een lichtgele achtergrond. */
-
-html {
-  /* background:#f1afd4; */
+/* Hierin staan de dingen van de hele html document */
+body {
   background-image: url(https://img.magnific.com/premium-vector/blue-morning-mountain-landscape-background_414991-327.jpg?semt=ais_hybrid&w=740&q=80);
   background-size:cover;
-}
-
-/* BODY */
-/* Hier wordt met een 'type selector' het <body> element geselecteerd. */
-/* In de <body> wordt de inhoud met "display: flex" in het midden geplaats. */
-/* En krijgt de <body> en alle inhoud een font en kleur. */
-body {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,16 +17,12 @@ body {
   color: #110047; /* de tekst kleur wordt in hex kleuren bepaald. */
 }
 
-/* ARTICLE */
-/* Het <article> element krijgt hier de styling. */
-/* De inhoud wordt met "display: flex" gepositioneerd en uitgelijnd. */
-/* Er wordt een breedte meegegeven, een minimale en maximale breedte. */
-/* Het <article> element krijgt een kleur, en nog meer ... */
-article {
-  position:relative;
-  
-  display: flex;
-  flex-direction: column;
+/* Article is het kaartje */
+  article {
+    position:relative;
+    
+    display: flex;
+    flex-direction: column;
 
   width: 430px;
   max-width: 500px;
@@ -50,8 +36,6 @@ article {
   transition: .25s;
 }
 
-/* HEADER */
-/* Hier wordt de inhoud van het <header> element gepositioneerd en uitgelijnd. */
 header {
   display: flex;
   flex-direction: column;
@@ -60,9 +44,9 @@ header {
   background: linear-gradient(50deg, #afc4f0 50%, #484ec8 100%);
   border-radius: 15px 15px 0px 0px;
 }
+/* Bovenkant van het visitekaartje */
 
-/* H1 */
-/* Hier krijgt het <h1> element de styling. */
+/* Mijn naam */
 h1 {
   margin: 10px 0 0px 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
   font-family: "Gveret Levin", cursive;
@@ -126,10 +110,11 @@ button svg:nth-of-type(2) {
   transition-delay: 0ms;
 }
 
-.container {
-display: flex;
-flex-direction: row;
-}
+/* Dit zijn de css styling van de container. */
+  .container {
+  display: flex;
+  flex-direction: row;
+  }
 
 .sidebar {
 width: 150px;
@@ -147,8 +132,6 @@ padding: 0px 20px 0px 20px;
 border-radius: 0px 0px 15px 0px;
 }
 
-/* IMG */
-/* Hier krijgt het <img> element de styling. */
 img {
   position: relative;
   top: 0px;
@@ -161,6 +144,7 @@ img {
   
   transition: 1s .15s; /* Transition Shorthand notation: Transities op het img element duren 1 seconde en beginnen 0.15 seconde later */
 }
+/* Dit zijn de css styling van de linkerkant van de container. */
 
 ul {
 color: white;
@@ -171,6 +155,7 @@ a, a:link, a:visited {
 text-decoration: none;
 color: darkblue;
 }
+    /* IMG Pasfoto styling*/
 
 /* Om alleen de <p> elementen te stylen die in het <article> staat gebruik je de > de 'Child combinator selector'.
 /* Met de 'Child combinator selector' selecteer je alle <p> elementen die een directe  kinderen van het <article> zijn. */
@@ -184,9 +169,6 @@ color: darkblue;
   text-align: right;
 } */
 
-/* P */
-/* Hier krijgt de <p> met de class slogan de styling. */
-/* Om een element met class te selecteren gebruik je een . in de selector */
 p.slogan {
   color:darkblue;
   font-style: italic;
@@ -200,11 +182,9 @@ p.slogan {
   height: 170px;
   border-radius: 0px 0px 15px 0px;
 }
+    /* De lijst met dingen over mij onder de foto aan de linkerkant */
+    /* Dit zijn de skills styling van HTML, CSS EN JS lijst */
 
-/* DL, DT, DD  */
-/* De eigenschappen zijn in de HTML opgemaakt in een Description List element (DL) */
-/* De Description List element (DL) is een lijst met termen en beschrijvingen. */
-/* In deze DL staan 3 groepen met code skills, in CSS is de layout van de DT elementen met een Grid gepositioneerd.  */
 
 dl {
   flex-direction:row;
@@ -229,7 +209,6 @@ dl {
   }
 }
 
-/* Deze styles zijn van toepassing als op de knop wordt geklikt */
 /* Dit zijn de css styling van de rechterkant van de container. */
     .rightbar {
       width: 280px;
@@ -259,6 +238,9 @@ dl {
           font-size: 12px;
           align-items: center;
           }
+
+      /* De portfolio link styling*/
+      /* Dit is de slogan tekst styling*/
 body.is-expanded {
   font-size: 1.15em;
 }
