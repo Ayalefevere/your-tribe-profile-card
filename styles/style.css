@@ -48,120 +48,118 @@ body {
 
 /* Mijn naam */
 h1 {
-  margin: 10px 0 0px 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
+  margin: 10px 0 0px 0;
   font-family: "Gveret Levin", cursive;
   font-size: 35px;
-  color: #0b0024; /* De tekst kleur wordt in rgb() bepaald. */
+  color: #0b0024;
 }
 
-/* Dit zijn de css styling van de container. */
+/* Dit zijn de styling van de container die twee vlakken maakt. */
   .container {
   display: flex;
   flex-direction: row;
   }
 
-
-/* Dit zijn de css styling van de linkerkant van de container. */
-
-  .sidebar {
-  width: 150px;
-  height: 500px;
-  background: #002e6a;
-  padding:10px 0px 0px 15px;
-  border-radius: 0px 0px 0px 15px;
-  }
-
-    /* IMG Pasfoto styling*/
-        .pasfoto {
-          position: relative;
-          top: 0px;
-          
-          width: 7.5em;
-          height: auto;
-          border: 5px solid #fff;
-          border-radius: 10em;
-          box-shadow: 0 0 2px 2px rgb(0 0 0 /.2);
-      }
-
-    /* De lijst met dingen over mij onder de foto aan de linkerkant */
-            ul {
-            color: white;
-            margin: 15px 0px 0px -15px;
-            }
-
-    /* Dit zijn de skills styling van HTML, CSS EN JS lijst */
-    dl {
-      flex-direction:row;
-      justify-items: start;
-      margin-top: -3rem;
-      padding: 5rem 0 3rem;
-      margin-left: 10px;
-      padding-bottom: 0px;
-      
-      dt {
-        border-bottom: 1px solid rgb(251, 226, 226);
-        font-weight: bold;
-        color: white;
-      }
-
-      dd {
-        margin: 0px;
-        margin-bottom: 15px;
-        padding: 0px;
-      }
+  /* Dit zijn de styling van de linkerkant van de container. */
+    .sidebar {
+    width: 150px;
+    height: 500px;
+    background: #002e6a;
+    padding:10px 0px 0px 15px;
+    border-radius: 0px 0px 0px 15px;
     }
 
+      /* IMG Pasfoto styling */
+          .pasfoto {
+            position: relative;
+            top: 0px;
+            
+            width: 7.5em;
+            height: auto;
+            border: 5px solid #fff;
+            border-radius: 10em;
+            box-shadow: 0 0 2px 2px rgb(0 0 0 /.2);
+        }
 
-/* Dit zijn de css styling van de rechterkant van de container. */
-    .rightbar {
-      width: 280px;
-      height: 500px;
-      background: white;
-      padding: 0px 20px 0px 20px;
-      border-radius: 0px 0px 15px 0px;
-      }
+      /* De lijst met dingen over mij onder de foto aan de linkerkant */
+              ul {
+              color: white;
+              margin: 15px 0px 0px -15px;
+              }
 
-      /* Foto icoontjes + tekst bij hobby's */
-          .hobbies {
-          display: flex;
-          height: 30px;
-          gap: 20px;
-          margin-left: 1px;
-          margin-bottom: 25px;
-          }   
-
-          .hobbie-item {
-          display:flex;
-          gap:0px;
-          }
-
-          .hobbie-item p {
-          display: flex;
+      /* Dit zijn de skills styling van HTML, CSS EN JS lijst */
+        dl {
+          flex-direction:row;
+          justify-items: start;
+          margin-top: -3rem;
+          padding: 5rem 0 3rem;
           margin-left: 10px;
-          font-size: 12px;
-          align-items: center;
+          padding-bottom: 0px;
+          
+          dt {
+            border-bottom: 1px solid rgb(251, 226, 226);
+            font-weight: bold;
+            color: white;
           }
 
-      /* De portfolio link styling*/
-        a, a:link, a:visited { 
-        text-decoration: none;
-        color: darkblue;
+          dd {
+            margin: 0px;
+            margin-bottom: 15px;
+            padding: 0px;
+          }
         }
 
-      /* Dit is de slogan tekst styling*/
-        p.slogan {
-          color:darkblue;
-          font-style: italic;
-          font-weight: bold;
-          text-align: center;
-          font-size: 20px;
-          padding: 50px 0px 50px 0px;
-          margin: 0px 0px 0px -20px;
-          background-color: transparent;
-          width: 280px;
-          height: 170px;
-          border-radius: 0px 0px 15px 0px;
+
+  /* Dit zijn de styling van de rechterkant van de container. */
+      .rightbar {
+        width: 280px;
+        height: 500px;
+        background: white;
+        padding: 0px 20px 0px 20px;
+        border-radius: 0px 0px 15px 0px;
         }
+
+        /* Foto icoontjes + tekst bij hobby's */
+            .hobbies {
+            display: flex;
+            height: 30px;
+            gap: 20px;
+            margin-left: 1px;
+            margin-bottom: 25px;
+            }   
+
+            .hobbie-item {
+            display:flex;
+            gap:0px;
+            }
+
+            .hobbie-item p {
+            display: flex;
+            margin-left: 10px;
+            font-size: 12px;
+            align-items: center;
+            }
+
+        /* De portfolio link styling*/
+          a, a:link, a:visited { 
+          text-decoration: none;
+          color: darkblue;
+          }
+
+        /* Dit is de slogan tekst styling*/
+          p.slogan {
+            color:darkblue;
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+            padding: 50px 0px 50px 0px;
+            margin: 0px 0px 0px -20px;
+            background-color: transparent;
+            width: 280px;
+            height: 170px;
+            border-radius: 0px 0px 15px 0px;
+          }
 
 
 /* De button heb ik verborgen dus die zie je niet in visitekaartje */
@@ -218,30 +216,30 @@ h1 {
     } */
 
 
-/* Deze styles zijn van toepassing als op de knop wordt geklikt, maar die heb ik verborgen. */
-body.is-expanded {
-  font-size: 1.15em;
-}
+      /* Deze styles zijn van toepassing als op de knop wordt geklikt, maar die heb ik verborgen. */
+      body.is-expanded {
+        font-size: 1.15em;
+      }
 
-body.is-expanded article {
-  width: 60vw;
-  max-width: 60vw;
-}
+      body.is-expanded article {
+        width: 60vw;
+        max-width: 60vw;
+      }
 
-body.is-expanded button svg:first-of-type {
-  opacity: 0;
-  transition-delay: 0ms;
-}
+      body.is-expanded button svg:first-of-type {
+        opacity: 0;
+        transition-delay: 0ms;
+      }
 
-body.is-expanded button svg:nth-of-type(2) {
-  opacity: 1;
-  transition-delay: .25s;
-}
+      body.is-expanded button svg:nth-of-type(2) {
+        opacity: 1;
+        transition-delay: .25s;
+      }
 
-body.is-expanded dl dd {
-  font-size: 1.75em;
-}
+      body.is-expanded dl dd {
+        font-size: 1.75em;
+      }
 
-body.is-expanded img {
-  width: 15em;
-}
+      body.is-expanded img {
+        width: 15em;
+      }
