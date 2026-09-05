@@ -61,7 +61,7 @@ h1 {
   }
 
   /* Dit zijn de styling van de linkerkant van de container. */
-    .sidebar {
+    aside {
     width: 150px;
     height: 500px;
     background: #002e6a;
@@ -111,7 +111,7 @@ h1 {
 
 
   /* Dit zijn de styling van de rechterkant van de container. */
-      .rightbar {
+      main {
         width: 280px;
         height: 500px;
         background: white;
